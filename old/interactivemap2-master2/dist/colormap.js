@@ -1,0 +1,1 @@
+$.getJSON('json_mieter.json',function(a){for(i=0;i<a.mieter.length+1;i++){numa=i+1;var b=numa.toString();'true'===a.mieter[i].vermietet?$('#map-'+b).css({fill:'red'}):'true'===a.mieter[i].reserviert?$('#map-'+b).css({fill:'orange'}):$('#map-'+b).css({fill:'green'})}});
