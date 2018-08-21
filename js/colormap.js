@@ -1,7 +1,7 @@
 /**
  * Created by t.geiger on 14.06.2017.
  */
-$.getJSON('json_mieter.json', function(data) {
+$.getJSON('json_example.json', function(data) {
 
 
     //COLORING MAP

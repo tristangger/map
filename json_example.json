@@ -1,0 +1,699 @@
+{
+   "mieter": [
+       {
+           
+           
+           "categroyA": "false",
+           "categroyB": "true",
+           "categroyC": "false",
+           "categroyD": "false",
+           "vermietet": "true",
+           "reserviert": "false",
+           "id": "1",
+           "name": "Test",
+           "qm": "-"
+       },
+          {
+           
+           
+           "categroyA": "false",
+           "categroyB": "false",
+           "categroyC": "false",
+           "categroyD": "true",
+           "vermietet": "false",
+           "reserviert": "true",
+           "id": "2",
+           "name": "Test",
+           "qm": "-" 
+       },
+          {
+           
+           
+           "categroyA": "false",
+           "categroyB": "false",
+           "categroyC": "false",
+           "categroyD": "true",
+           "vermietet": "true",
+           "reserviert": "false",
+           "id": "3",
+           "name": "Test",
+            "qm": "-" 
+       },
+          {
+           
+           
+           "categroyA": "false",
+           "categroyB": "true",
+           "categroyC": "true",
+           "categroyD": "false",
+           "vermietet": "true",
+           "reserviert": "false",
+           "id": "4",
+           "name": "Test",
+           "qm": "-" 
+       },
+          {
+           
+           
+           "categroyA": "false",
+           "categroyB": "false",
+           "categroyC": "true",
+           "categroyD": "false",
+           "vermietet": "true",
+           "reserviert": "false",
+           "id": "5",
+           "name": "Test",
+            "qm": "-"
+       },
+          {
+           
+           
+           "categroyA": "true",
+           "categroyB": "false",
+           "categroyC": "true",
+           "categroyD": "false",
+           "vermietet": "true",
+           "reserviert": "false",
+           "id": "6",
+           "name": "Test",
+           "qm": "-" 
+       },
+          {
+           
+           
+           "categroyA": "false",
+           "categroyB": "false",
+           "categroyC": "false",
+           "categroyD": "true",
+           "vermietet": "true",
+           "reserviert": "false",
+           "id": "7",
+           "name": "Test",
+           "qm": "-" 
+       },
+          {
+           
+           
+           "categroyA": "false",
+           "categroyB": "false",
+           "categroyC": "false",
+           "categroyD": "true",
+           "vermietet": "true",
+           "reserviert": "false",
+           "id": "8",
+           "name": "Test",
+           "qm": "-" 
+       },
+          {
+           
+           
+           "categroyA": "false",
+           "categroyB": "false",
+           "categroyC": "false",
+           "categroyD": "true",
+           "vermietet": "true",
+           "reserviert": "false",
+           "id": "9",
+           "name": "Test",
+           "qm": "-" 
+       },
+          {
+           
+           
+           "categroyA": "true",
+           "categroyB": "false",
+           "categroyC": "false",
+           "categroyD": "false",
+           "vermietet": "true",
+           "reserviert": "false",
+           "id": "10",
+           "name": "Test",
+           "qm": "-" 
+       },
+          {
+           
+           
+           "categroyA": "false",
+           "categroyB": "true",
+           "categroyC": "false",
+           "categroyD": "false",
+           "vermietet": "true",
+           "reserviert": "false",
+           "id": "11",
+           "name": "Test",
+           "qm": "-" 
+       },
+          {
+           
+           
+           "categroyA": "false",
+           "categroyB": "true",
+           "categroyC": "false",
+           "categroyD": "false",
+           "vermietet": "true",
+           "reserviert": "false",
+           "id": "12",
+           "name": "Test",
+           "qm": "-" 
+       },
+          {
+           
+           
+           "categroyA": "true",
+           "categroyB": "false",
+           "categroyC": "false",
+           "categroyD": "false",
+           "vermietet": "true",
+           "reserviert": "false",
+           "id": "13",
+           "name": "Test",
+           "qm": "-" 
+       },
+          {
+           
+           
+           "categroyA": "false",
+           "categroyB": "true",
+           "categroyC": "false",
+           "categroyD": "false",
+           "vermietet": "true",
+           "reserviert": "false",
+           "id": "14",
+           "name": "Test",
+           "qm": "-" 
+       },
+          {
+           
+           
+           "categroyA": "false",
+           "categroyB": "true",
+           "categroyC": "false",
+           "categroyD": "false",
+           "vermietet": "true",
+           "reserviert": "false",
+           "id": "15",
+           "name": "Test",
+           "qm": "-" 
+       },
+          {
+           
+           
+           "categroyA": "false",
+           "categroyB": "true",
+           "categroyC": "false",
+           "categroyD": "false",
+           "vermietet": "true",
+           "reserviert": "false",
+           "id": "16",
+           "name": "Test",
+           "qm": "-" 
+       },
+          {
+           
+           
+           "categroyA": "false",
+           "categroyB": "true",
+           "categroyC": "false",
+           "categroyD": "false",
+           "vermietet": "true",
+           "reserviert": "false",
+           "id": "17",
+           "name": "Test",
+           "qm": "-" 
+       },
+          {
+           
+           
+           "categroyA": "false",
+           "categroyB": "true",
+           "categroyC": "false",
+           "categroyD": "false",
+           "vermietet": "true",
+           "reserviert": "false",
+           "id": "18",
+           "name": "Test",
+           "qm": "-" 
+       },
+          {
+           
+           
+           "categroyA": "false",
+           "categroyB": "true",
+           "categroyC": "false",
+           "categroyD": "false",
+           "vermietet": "false",
+           "reserviert": "true",
+           "id": "19",
+           "name": "Test",
+           "qm": "45" 
+       },
+          {
+           
+           
+           "categroyA": "false",
+           "categroyB": "true",
+           "categroyC": "false",
+           "categroyD": "false",
+           "vermietet": "true",
+           "reserviert": "false",
+           "id": "20",
+           "name": "Test",
+           "qm": "-" 
+       },
+          {
+           
+           
+           "categroyA": "false",
+           "categroyB": "true",
+           "categroyC": "false",
+           "categroyD": "false",
+           "vermietet": "false",
+           "reserviert": "false",
+           "id": "21",
+           "name": "Test",
+           "qm": "140" 
+       },
+          {
+           
+           
+           "categroyA": "false",
+           "categroyB": "true",
+           "categroyC": "false",
+           "categroyD": "false",
+           "vermietet": "true",
+           "reserviert": "false",
+           "id": "22",
+           "name": "Test",
+           "qm": "-" 
+       },
+          {
+           
+           
+           "categroyA": "false",
+           "categroyB": "true",
+           "categroyC": "false",
+           "categroyD": "false",
+           "vermietet": "false",
+           "reserviert": "false",
+           "id": "23",
+           "name": "Test",
+           "qm": "162" 
+       },
+          {
+           
+           
+           "categroyA": "true",
+           "categroyB": "false",
+           "categroyC": "false",
+           "categroyD": "false",
+           "vermietet": "false",
+           "reserviert": "false",
+           "id": "24",
+           "name": "Test",
+           "qm": "80" 
+       },
+          {
+           
+           
+           "categroyA": "true",
+           "categroyB": "false",
+           "categroyC": "false",
+           "categroyD":  "false",
+           "vermietet": "false",
+           "reserviert": "false",
+           "id": "25",
+           "name": "Test",
+           "qm": "120" 
+       },
+          {
+           
+           
+           "categroyA": "true",
+           "categroyB": "false",
+           "categroyC": "false",
+           "categroyD": "false",
+           "vermietet": "true",
+           "reserviert": "false",
+           "id": "26",
+           "name": "Test",
+           "qm": "-" 
+       },
+          {
+           
+           
+           "categroyA": "false",
+           "categroyB": "true",
+           "categroyC": "false",
+           "categroyD": "false",
+           "vermietet": "true",
+           "reserviert": "false",
+           "id": "27",
+           "name": "Test",
+           "qm": "-" 
+       },
+          {
+           
+           
+           "categroyA": "true",
+           "categroyB": "false",
+           "categroyC": "false",
+           "categroyD": "false",
+           "vermietet": "true",
+           "reserviert": "false",
+           "id": "28",
+           "name": "Test",
+           "qm": "-" 
+       },
+          {
+           
+           
+           "categroyA": "false",
+           "categroyB": "true",
+           "categroyC": "false",
+           "categroyD": "false",
+           "vermietet": "true",
+           "reserviert": "false",
+           "id": "29",
+           "name": "Test",
+           "qm": "-" 
+       },
+          {
+           
+           
+           "categroyA": "true",
+           "categroyB": "false",
+           "categroyC": "false",
+           "categroyD": "false",
+           "vermietet": "false",
+           "reserviert": "true",
+           "id": "30",
+           "name": "Test",
+           "qm": "60" 
+       },
+          {
+           
+           
+           "categroyA": "false",
+           "categroyB": "true",
+           "categroyC": "false",
+           "categroyD": "false",
+           "vermietet": "true",
+           "reserviert": "false",
+           "id": "31",
+           "name": "Test",
+           "qm": "-" 
+       },
+          {
+           
+           
+           "categroyA": "false",
+           "categroyB": "false",
+           "categroyC": "false",
+           "categroyD": "true",
+           "vermietet": "true",
+           "reserviert": "false",
+           "id": "32",
+           "name": "Test",
+           "qm": "-" 
+       },
+          {
+           
+           
+           "categroyA": "false",
+           "categroyB": "false",
+           "categroyC": "true",
+           "categroyD": "false",
+           "vermietet": "true",
+           "reserviert": "false",
+           "id": "33",
+           "name": "Test",
+           "qm": "-" 
+       },
+          {
+           
+           
+           "categroyA": "false",
+           "categroyB": "true",
+           "categroyC": "false",
+           "categroyD": "false",
+           "vermietet": "true",
+           "reserviert": "false",
+           "id": "34",
+           "name": "Test",
+           "qm": "-" 
+       },
+          {
+           
+           
+           "categroyA": "false",
+           "categroyB": "true",
+           "categroyC": "false",
+           "categroyD": "false",
+           "vermietet": "true",
+           "reserviert": "false",
+           "id": "35",
+           "name": "Test",
+           "qm": "-" 
+       },
+          {
+           
+           
+           "categroyA": "false",
+           "categroyB": "true",
+           "categroyC": "false",
+           "categroyD": "false",
+           "vermietet": "true",
+           "reserviert": "false",
+           "id": "36",
+           "name": "Test",
+           "qm": "-"
+       },
+          {
+           
+           
+           "categroyA": "false",
+           "categroyB": "true",
+           "categroyC": "false",
+           "categroyD": "false",
+           "vermietet": "false",
+           "reserviert": "false",
+           "id": "37",
+           "name": "Test",
+           "qm": "77" 
+       },
+          {
+           
+           
+           "categroyA": "false",
+           "categroyB": "true",
+           "categroyC": "false",
+           "categroyD": "false",
+           "vermietet": "true",
+           "reserviert": "false",
+           "id": "38",
+           "name": "Test",
+           "qm": "-" 
+       },
+          {
+           
+           
+           "categroyA": "false",
+           "categroyB": "true",
+           "categroyC": "false",
+           "categroyD": "false",
+           "vermietet": "true",
+           "reserviert": "false",
+           "id": "39",
+           "name": "Test",
+           "qm": "-" 
+       },
+          {
+           
+           
+           "categroyA": "false",
+           "categroyB": "true",
+           "categroyC": "false",
+           "categroyD": "false",
+           "vermietet": "true",
+           "reserviert": "false",
+           "id": "40",
+           "name": "Test",
+           "qm": "-" 
+       },
+          {
+           
+           
+           "categroyA": "false",
+           "categroyB": "true",
+           "categroyC": "false",
+           "categroyD": "false",
+           "vermietet": "true",
+           "reserviert": "false",
+           "id": "41",
+           "name": "Test",
+           "qm": "-" 
+       },
+          {
+           
+           
+           "categroyA": "false",
+           "categroyB": "true",
+           "categroyC": "false",
+           "categroyD": "false",
+           "vermietet": "true",
+           "reserviert": "false",
+           "id": "42",
+           "name": "Test",
+           "qm": "-" 
+       },
+          {
+           
+           
+           "categroyA": "false",
+           "categroyB": "false",
+           "categroyC": "true",
+           "categroyD": "false",
+           "vermietet": "false",
+           "reserviert": "false",
+           "id": "43",
+           "name": "Test",
+           "qm": "35" 
+       },
+          {
+           
+           
+           "categroyA": "false",
+           "categroyB": "false",
+           "categroyC": "false",
+           "categroyD": "true",
+           "vermietet": "false",
+           "reserviert": "true",
+           "id": "44",
+           "name": "Test",
+           "qm": "76" 
+       },
+          {
+           
+           
+           "categroyA": "true",
+           "categroyB": "false",
+           "categroyC": "false",
+           "categroyD": "false",
+           "vermietet": "true",
+           "reserviert": "false",
+           "id": "45",
+           "name": "Test",
+           "qm": "-" 
+       },
+          {
+           
+           
+           "categroyA": "false",
+           "categroyB": "false",
+           "categroyC": "false",
+           "categroyD": "true",
+           "vermietet": "false",
+           "reserviert": "false",
+           "id": "46",
+           "name": "Test",
+           "qm": "64" 
+       },
+          {
+           
+           
+           "categroyA": "false",
+           "categroyB": "false",
+           "categroyC": "false",
+           "categroyD": "true",
+           "vermietet": "false",
+           "reserviert": "true",
+           "id": "47",
+           "name": "Test",
+           "qm": "63" 
+       },
+          {
+           
+           
+           "categroyA": "false",
+           "categroyB": "false",
+           "categroyC": "false",
+           "categroyD": "true",
+           "vermietet": "true",
+           "reserviert": "false",
+           "id": "48",
+           "name": "Test",
+           "qm": "-" 
+       },
+          {
+           
+           
+           "categroyA": "false",
+           "categroyB": "false",
+           "categroyC": "false",
+           "categroyD": "true",
+           "vermietet": "true",
+           "reserviert": "false",
+           "id": "49",
+           "name": "Test",
+           "qm": "-" 
+       },
+          {
+           
+           
+           "categroyA": "false",
+           "categroyB": "false",
+           "categroyC": "false",
+           "categroyD": "true",
+           "vermietet": "true",
+           "reserviert": "false",
+           "id": "50",
+           "name": "Test",
+           "qm": "-" 
+       },
+          {
+           
+           
+           "categroyA": "false",
+           "categroyB": "false",
+           "categroyC": "false",
+           "categroyD": "true",
+           "vermietet": "false",
+           "reserviert": "false",
+           "id": "51",
+           "name": "Test",
+           "qm": "101" 
+       },
+          {
+           
+           
+           "categroyA": "false",
+           "categroyB": "false",
+           "categroyC": "false",
+           "categroyD": "true",
+           "vermietet": "true",
+           "reserviert": "false",
+           "id": "52",
+           "name": "Test",
+           "qm": "-" 
+       },
+        {
+           
+           
+           "categroyA": "false",
+           "categroyB": "false",
+           "categroyC": "false",
+           "categroyD": "true",
+           "vermietet": "true",
+           "reserviert": "false",
+           "id": "53",
+           "name": "Test",
+           "qm": "-" 
+       }
+       
+  
+   
+   
+   
+   
+   ]
+}

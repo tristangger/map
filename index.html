@@ -14,7 +14,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
     <link href="css/one-page-wonder.css" rel="stylesheet">
 	
-    <script src="js/w3.js"></script>
+<!--     <script src="js/w3.js"></script> -->
 
 
 
@@ -35,7 +35,7 @@
 
         #section g[id^='map-'] {
             opacity: 0.5;
-            fill: green;
+            fill: #558a8e;
 			position:relative;
 
 
@@ -162,7 +162,7 @@
             <ul class="nav nav-stacked gap-top-120" id="sidebar">
                 <li class="active">
                     <div class="checkbox setting col-md-1" style="padding-left:0px;">
-                        <label><input type="checkbox" class="dienstleistung" value="" style="cursor: pointer;">
+                        <label><input type="checkbox" class="sidebar__checkbox__a" value="" style="cursor: pointer;">
                             <div class="track"></div>
                             <div class="toggle"></div>
                             KATEGORIE 1 </label>
@@ -170,7 +170,7 @@
                 </li>
                 <li>
                     <div class="checkbox setting col-md-1" style="margin-top:10px;padding-left:0px;">
-                        <label><input type="checkbox" class="gastronomie" value="" style="cursor: pointer;">
+                        <label><input type="checkbox" class="sidebar__checkbox__b" value="" style="cursor: pointer;">
                             <div class="track"></div>
                             <div class="toggle"></div>
 							KATEGORIE 2</label>
@@ -178,7 +178,7 @@
                 </li>
                 <li>
                     <div class="checkbox setting col-md-1" style="margin-top:10px;padding-left:0px;">
-                        <label><input type="checkbox" class="lebensmittel" value="" style="cursor: pointer;">
+                        <label><input type="checkbox" class="sidebar__checkbox__c" value="" style="cursor: pointer;">
                             <div class="track"></div>
                             <div class="toggle"></div>
                             KATEGORIE 3</label>
@@ -186,7 +186,7 @@
                 </li>
 				<li>
 					<div class="checkbox setting col-md-1" style="margin-top:10px;padding-left:0px;">
-						<label><input type="checkbox" class="einzelhandel" value="" style="cursor: pointer;">
+						<label><input type="checkbox" class="sidebar__checkbox__d" value="" style="cursor: pointer;">
 							<div class="track"></div>
 							<div class="toggle"></div>
 							KATEGORIE <label>
@@ -208,10 +208,20 @@
                 <li>
                 <div class="col-md-6" style="width:60px;">
                     <svg width="40" height="20">
-                        <rect width="40" height="20" style="fill:rgb(177,200,117);"/>
+                        <rect width="40" height="20" style="fill:rgb(85,138,142);"/>
                     </svg>
                 </div>
                 <div class="col-md-6"><p>VERFÜGBAR</p></div>
+
+            </li>
+
+             <li>
+                <div class="col-md-6" style="width:60px;">
+                    <svg width="40" height="20">
+                        <rect width="40" height="20" style="fill:rgb(24,108,150);"/>
+                    </svg>
+                </div>
+                <div class="col-md-6"><p>RESERVIERT</p></div>
 
             </li>
 
@@ -592,10 +602,10 @@
 
 
 
-
+<!-- 
 <script>
     w3.includeHTML();
-</script>
+</script> -->
 
 
 
@@ -616,7 +626,7 @@
 <script src="js/modal.js"></script>
 
 <!-- <script src="js/interactive.js"></script> -->
-<script src="js/colormap.js"></script>
+
 
 
  <script src="js/appController.js"></script>

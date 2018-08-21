@@ -3,14 +3,12 @@
 var uiController = (function(){
 
 var render = { 
-              renderUnchecked: function(){
+                renderUnchecked: function(){
                                   $('g[id^="map-"]').fadeTo(1000, 0.5);
                                 },
 
             
-
-
-              renderChecked: {
+                renderChecked: {
                                 fadeIn: function(data, field) {
                                   
                                   field=field + 1;
@@ -26,7 +24,27 @@ var render = {
                                 
                                 }
 
-                          } 
+                          },
+
+
+                  renderInitialState: {
+
+                                    grey: function(field) {  
+                                           
+                                     $('#map-' + field).css({"fill": "#404040"})
+                                    },
+
+                                    blue: function(field) 
+                                    { 
+                                      $('#map-' + field).css({"fill": "#558a8e"})
+                                    },
+
+                                    lightblue: function(field) {  
+                                      console.log("HAHAHA");
+                                     $('#map-' + field).css({"fill": "#186c96"})
+                                   }
+
+                  }
                             
                 };
 return render;
@@ -47,12 +65,22 @@ var domHandler = {
 	
   category: [
 
-    ".dienstleistung",
-	  ".gastronomie",
-	  ".einzelhandel",
-	  ".lebensmittel"
+    ".sidebar__checkbox__a",
+	  ".sidebar__checkbox__b",
+	  ".sidebar__checkbox__c",
+	  ".sidebar__checkbox__d"
+
+   ],
+
+   categoryName: [
+   "categroyA",
+   "categroyB",
+   "categroyC",
+   "categroyD"
 
    ]
+
+
 
 
 };
@@ -82,27 +110,24 @@ var domEvents = {
                               if (stateHandler.state[i].check === false) {
                                   allAreUnchecked[i] = true;
                               }
-
-
-                              
-
+                            
                             };
+
 
                             for(var i = 0; i< data.mieter.length; i++) {
 
                                 stateSave= false;
 
                               for(var j = 0; j< stateHandler.state.length; j++){
-                                  tempState = domHandler.category[j];
-                                  tempState= tempState.substr(1);
-
+                                  tempState = domHandler.categoryName[j];
+                                  
                                 if((stateHandler.state[j].check == true) && (data.mieter[i][tempState] == "true")) {
                                
                                     stateSave=true;
-                                  
-                                }
+                                  }
                                 
                               };
+
                               if(stateSave) {
                                 ui.renderChecked.fadeIn(data, i)
                               }
@@ -110,26 +135,53 @@ var domEvents = {
                                 ui.renderChecked.fadeOut(data, i)
                               };
 
-
-
-
-
-
-
-
-
                               };
 
 
 
 
                             if(allAreUnchecked.every(Boolean)) {
-                              console.log("UNCHECK ALLLLL");
+                              
                               ui.renderUnchecked(data);
                             } 
                            
 
-                    }
+                    },
+
+
+
+      initialStateCheck: function(data){
+
+                              
+                              for (var i = 0; i < data.mieter.length; i++) {
+                                    
+                               var field = i + 1;
+                                   field = field.toString();
+
+                              if (data.mieter[i].vermietet === "true") {
+                                                              
+                                  ui.renderInitialState.grey(field);
+                                                                
+                              } 
+                              else if (data.mieter[i].reserviert === "true") 
+                              {
+                                 ui.renderInitialState.lightblue(field);
+                              }
+                              else {
+                                ui.renderInitialState.blue(field);
+                              }
+
+                              };
+
+                          }
+
+
+
+
+
+
+
+      
 };
 
 
@@ -157,8 +209,6 @@ var stateHandler = {
                        
                          
                         stateHandler.state[i].check = $(domHandler.category[i]).prop('checked');
-                        
-                        //console.log($(domHandler.category[i]).prop('checked') + "TESTEST" + stateHandler.state[i].check );
                       }
                       
                     }
@@ -171,7 +221,7 @@ var stateHandler = {
 
 
 var dataReady = function(data){
-
+    domEvents.initialStateCheck(data);
     domEvents.filterCategory(ui.renderUnchecked, ui.renderChecked, data);
     stateHandler.stateGenerator(stateHandler.checkboxNumber);
     stateHandler.updateState(stateHandler.checkboxNumber);
@@ -183,7 +233,7 @@ var dataReady = function(data){
 var getDataJson = {
 
 	data: function(){
-			fetch('./json_mieter.json')
+			fetch('./json_example.json')
   			.then(
     			function(response) {
      	 			if (response.status !== 200) {
