@@ -11,7 +11,7 @@
            "reserviert": "false",
            "id": "1",
            "name": "Test",
-           "qm": "-"
+           "qm": "45"
        },
           {
            
@@ -24,7 +24,7 @@
            "reserviert": "true",
            "id": "2",
            "name": "Test",
-           "qm": "-" 
+           "qm": "45" 
        },
           {
            
@@ -37,7 +37,7 @@
            "reserviert": "false",
            "id": "3",
            "name": "Test",
-            "qm": "-" 
+            "qm": "45" 
        },
           {
            
@@ -50,7 +50,7 @@
            "reserviert": "false",
            "id": "4",
            "name": "Test",
-           "qm": "-" 
+           "qm": "45" 
        },
           {
            
@@ -63,7 +63,7 @@
            "reserviert": "false",
            "id": "5",
            "name": "Test",
-            "qm": "-"
+            "qm": "45"
        },
           {
            
@@ -76,7 +76,7 @@
            "reserviert": "false",
            "id": "6",
            "name": "Test",
-           "qm": "-" 
+           "qm": "45" 
        },
           {
            
@@ -89,7 +89,7 @@
            "reserviert": "false",
            "id": "7",
            "name": "Test",
-           "qm": "-" 
+           "qm": "45" 
        },
           {
            
@@ -102,7 +102,7 @@
            "reserviert": "false",
            "id": "8",
            "name": "Test",
-           "qm": "-" 
+           "qm": "45" 
        },
           {
            
@@ -115,7 +115,7 @@
            "reserviert": "false",
            "id": "9",
            "name": "Test",
-           "qm": "-" 
+           "qm": "45" 
        },
           {
            
@@ -128,7 +128,7 @@
            "reserviert": "false",
            "id": "10",
            "name": "Test",
-           "qm": "-" 
+           "qm": "45" 
        },
           {
            
@@ -141,7 +141,7 @@
            "reserviert": "false",
            "id": "11",
            "name": "Test",
-           "qm": "-" 
+           "qm": "45" 
        },
           {
            
@@ -154,7 +154,7 @@
            "reserviert": "false",
            "id": "12",
            "name": "Test",
-           "qm": "-" 
+           "qm": "45" 
        },
           {
            
@@ -167,7 +167,7 @@
            "reserviert": "false",
            "id": "13",
            "name": "Test",
-           "qm": "-" 
+           "qm": "45" 
        },
           {
            
@@ -180,7 +180,7 @@
            "reserviert": "false",
            "id": "14",
            "name": "Test",
-           "qm": "-" 
+           "qm": "45" 
        },
           {
            
@@ -193,7 +193,7 @@
            "reserviert": "false",
            "id": "15",
            "name": "Test",
-           "qm": "-" 
+           "qm": "45" 
        },
           {
            
@@ -206,7 +206,7 @@
            "reserviert": "false",
            "id": "16",
            "name": "Test",
-           "qm": "-" 
+           "qm": "45" 
        },
           {
            
@@ -219,7 +219,7 @@
            "reserviert": "false",
            "id": "17",
            "name": "Test",
-           "qm": "-" 
+           "qm": "45" 
        },
           {
            
@@ -232,7 +232,7 @@
            "reserviert": "false",
            "id": "18",
            "name": "Test",
-           "qm": "-" 
+           "qm": "45" 
        },
           {
            
@@ -258,7 +258,7 @@
            "reserviert": "false",
            "id": "20",
            "name": "Test",
-           "qm": "-" 
+           "qm": "45" 
        },
           {
            
@@ -284,7 +284,7 @@
            "reserviert": "false",
            "id": "22",
            "name": "Test",
-           "qm": "-" 
+           "qm": "45" 
        },
           {
            
@@ -336,7 +336,7 @@
            "reserviert": "false",
            "id": "26",
            "name": "Test",
-           "qm": "-" 
+           "qm": "45" 
        },
           {
            
@@ -349,7 +349,7 @@
            "reserviert": "false",
            "id": "27",
            "name": "Test",
-           "qm": "-" 
+           "qm": "45" 
        },
           {
            
@@ -362,7 +362,7 @@
            "reserviert": "false",
            "id": "28",
            "name": "Test",
-           "qm": "-" 
+           "qm": "45" 
        },
           {
            
@@ -375,7 +375,7 @@
            "reserviert": "false",
            "id": "29",
            "name": "Test",
-           "qm": "-" 
+           "qm": "45" 
        },
           {
            
@@ -401,7 +401,7 @@
            "reserviert": "false",
            "id": "31",
            "name": "Test",
-           "qm": "-" 
+           "qm": "45" 
        },
           {
            
@@ -414,7 +414,7 @@
            "reserviert": "false",
            "id": "32",
            "name": "Test",
-           "qm": "-" 
+           "qm": "45" 
        },
           {
            
@@ -427,7 +427,7 @@
            "reserviert": "false",
            "id": "33",
            "name": "Test",
-           "qm": "-" 
+           "qm": "45" 
        },
           {
            
@@ -440,7 +440,7 @@
            "reserviert": "false",
            "id": "34",
            "name": "Test",
-           "qm": "-" 
+           "qm": "45" 
        },
           {
            
@@ -453,7 +453,7 @@
            "reserviert": "false",
            "id": "35",
            "name": "Test",
-           "qm": "-" 
+           "qm": "45" 
        },
           {
            
@@ -466,7 +466,7 @@
            "reserviert": "false",
            "id": "36",
            "name": "Test",
-           "qm": "-"
+           "qm": "45"
        },
           {
            
@@ -492,7 +492,7 @@
            "reserviert": "false",
            "id": "38",
            "name": "Test",
-           "qm": "-" 
+           "qm": "45" 
        },
           {
            
@@ -505,7 +505,7 @@
            "reserviert": "false",
            "id": "39",
            "name": "Test",
-           "qm": "-" 
+           "qm": "45" 
        },
           {
            
@@ -518,7 +518,7 @@
            "reserviert": "false",
            "id": "40",
            "name": "Test",
-           "qm": "-" 
+           "qm": "45" 
        },
           {
            
@@ -531,7 +531,7 @@
            "reserviert": "false",
            "id": "41",
            "name": "Test",
-           "qm": "-" 
+           "qm": "45" 
        },
           {
            
@@ -544,7 +544,7 @@
            "reserviert": "false",
            "id": "42",
            "name": "Test",
-           "qm": "-" 
+           "qm": "45" 
        },
           {
            
@@ -583,7 +583,7 @@
            "reserviert": "false",
            "id": "45",
            "name": "Test",
-           "qm": "-" 
+           "qm": "45" 
        },
           {
            
@@ -622,7 +622,7 @@
            "reserviert": "false",
            "id": "48",
            "name": "Test",
-           "qm": "-" 
+           "qm": "45" 
        },
           {
            
@@ -635,7 +635,7 @@
            "reserviert": "false",
            "id": "49",
            "name": "Test",
-           "qm": "-" 
+           "qm": "45" 
        },
           {
            
@@ -648,7 +648,7 @@
            "reserviert": "false",
            "id": "50",
            "name": "Test",
-           "qm": "-" 
+           "qm": "45" 
        },
           {
            
@@ -674,7 +674,7 @@
            "reserviert": "false",
            "id": "52",
            "name": "Test",
-           "qm": "-" 
+           "qm": "45" 
        },
         {
            
@@ -687,7 +687,7 @@
            "reserviert": "false",
            "id": "53",
            "name": "Test",
-           "qm": "-" 
+           "qm": "45" 
        }
        
   

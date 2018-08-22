@@ -1,8 +1,24 @@
+/*     $('[id^="map-"]').click(function()
+    {
+         var temp=$(this).attr('id');
+
+        var res = temp.slice(4);
+        $('#area').load('content/area'+res+'.html');
+        $(".a1").modal();
+
+
+
+    });
+*/
+
+
 
 
 var uiController = (function(){
 
-var render = { 
+
+var renderMap = { 
+
                 renderUnchecked: function(){
                                   $('g[id^="map-"]').fadeTo(1000, 0.5);
                                 },
@@ -30,7 +46,7 @@ var render = {
                   renderInitialState: {
 
                                     grey: function(field) {  
-                                           
+                                          
                                      $('#map-' + field).css({"fill": "#404040"})
                                     },
 
@@ -40,14 +56,41 @@ var render = {
                                     },
 
                                     lightblue: function(field) {  
-                                      console.log("HAHAHA");
+                                      
                                      $('#map-' + field).css({"fill": "#186c96"})
                                    }
+
+                  },
+
+
+
+
+                  displayModal: function(that, modalContent, modalContainer, data) {
+
+                                var temp,
+                                    res,
+                                    content,
+                                    template;
+                              
+                                temp= $(that).attr('id');
+                                res = temp.slice(4);
+
+                                content = document.getElementById(modalContent);
+                                content.innerHTML="";
+                                
+                                template = "<p>" + "Das ist die ID " + data.mieter[res].id  + 
+                                "</p>" + "<p>"  + data.mieter[res].qm + " qm"  + "</p>" +
+                                "<p>" + data.mieter[res].name + "</p>";                  
+                                
+                                content.insertAdjacentHTML("afterbegin", template);
+                                                              
+                                 $(modalContainer).modal();
 
                   }
                             
                 };
-return render;
+
+return renderMap;
 
 })();
 
@@ -61,8 +104,12 @@ var appController = (function(ui){
 
 var domHandler = {
 
+  modalContent: "modalId",
+
+  modalContainer: ".modal",
+
 	checkbox: ".checkbox",
-	
+	 
   category: [
 
     ".sidebar__checkbox__a",
@@ -98,11 +145,11 @@ var domEvents = {
 
     stateCheck: function(data){
                         
-                           var allAreUnchecked = [false, false, false,false];
-                           var tempState;
-                           var stateSave;
+                           var allAreUnchecked,
+                               tempState,
+                               stateSave;
                               
-
+                            allAreUnchecked = [false, false, false,false];
                             
 
                             for(var i = 0; i< stateHandler.state.length; i++) {
@@ -173,7 +220,17 @@ var domEvents = {
 
                               };
 
-                          }
+                          },
+
+
+        modalCheck: function(data){
+
+                    $('[id^="map-"]').click(function(){
+                      var that = this;
+                       ui.displayModal(that, domHandler.modalContent, domHandler.modalContainer, data);
+                    });
+
+        }
 
 
 
@@ -223,8 +280,10 @@ var stateHandler = {
 var dataReady = function(data){
     domEvents.initialStateCheck(data);
     domEvents.filterCategory(ui.renderUnchecked, ui.renderChecked, data);
+    domEvents.modalCheck(data);
     stateHandler.stateGenerator(stateHandler.checkboxNumber);
     stateHandler.updateState(stateHandler.checkboxNumber);
+    
     
 };
 
@@ -265,9 +324,7 @@ var getDataJson = {
 
 var initApp = function(){
              getDataJson.data();
-            // domEvents.filterCategory(ui.renderUnchecked, ui.renderChecked);
-
-};
+            };
 
 
 return initApp;

@@ -2,136 +2,18 @@
 <html lang="de">
 
 <head>
-
+	
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <title>Example</title>
+   	<title>Example</title>
 
-
-    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
-    <link href="css/one-page-wonder.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 	
-<!--     <script src="js/w3.js"></script> -->
-
-
-
-
-
-
-
-    <style>
-
-        #area {
-            background-color: whitesmoke;
-            color: #333333;
-            padding: 20px 20px 20px 20px;
-        }
-
-
-
-
-        #section g[id^='map-'] {
-            opacity: 0.5;
-            fill: #558a8e;
-			position:relative;
-
-
-        }
-
-
-		svg {cursor: pointer;}
-
-
-
-
-		#section g[id^='map-']:hover {
-
-
-
-			opacity:1;
-			font-size-adjust: 0.65;
-			box-shadow: 50px 50px 5px #000000;
-			transition: all 200ms ease-in;
-			transform: scale(1.01);
-			z-index: 99;
-			-moz-transition: all 200ms ease-in;
-			-moz-transform: scale(1.01);
-			-webkit-transition: all 200ms ease-in;
-			-webkit-transform: scale(1.01);
-			-ms-transition: all 200ms ease-in;
-			-ms-transform: scale(1.01);
-
-			-ms-transform-origin: 50% 50%;
-			-webkit-transform-origin: 50% 50%;
-			transform-origin: 50% 50%;
-
-
-
-		}
-
-		#section g[id^='map-']{
-
-			box-shadow: 50px 50px 5px #000000;
-
-
-
-			-ms-transform-origin: 50% 50%;
-			-webkit-transform-origin: 50% 50%;
-			transform-origin: 50% 50%;
-
-		display:inline-block;
-		position: relative;
-		-webkit-transition: all 200ms ease-in;
-		-webkit-transform: scale(1);
-		-ms-transition: all 200ms ease-in;
-		-ms-transform: scale(1);
-		-moz-transition: all 200ms ease-in;
-		-moz-transform: scale(1);
-		transition: all 200ms ease-in;
-		transform: scale(1);
-
-		}
-
-
-		/*#section text:hover {font-size: 60px;}*/
-		.sect text{font-family: Helvetica;font-size: 29px;fill:#fff;}
-
-		.sect2 text{font-family: Helvetica;font-size: 4px;fill:#fff;}
-
-
-        body {
-            margin: 0
-        }
-
-        
-        #content {
-
-            /*height:1000px;*/
-            position: relative;
-        }
-
-        #sidebar {
-
-            height: 350px;
-            /*margin:20px;*/
-            width: 150px;
-            /*float:left;*/
-            bottom: 320px;
-
-        }
-
-      
-
-      
-
-
-    </style>
-
-
-
+ 	
 
 
 
@@ -140,55 +22,54 @@
 </head>
 
 
-<body>
-
-
-<!-- Page Content -->
-<div class="container bg-color" id="content">   
+<body class="body">
 
 
 
+<div class="container">   
 
 
 
 
 
 
-	<!-- SIDENAV -->
+
+
+
 
     <div class="row">
 
-        <div class="col-sm-3 grey-secondary caption ">
-            <ul class="nav nav-stacked gap-top-120" id="sidebar">
+        <div class="col-sm-3 grey-secondary">
+            <ul class="nav nav-stacked sidebar">
                 <li class="active">
-                    <div class="checkbox setting col-md-1" style="padding-left:0px;">
+                    <div class="checkbox col-md-1" style="padding-left:0px;">
                         <label><input type="checkbox" class="sidebar__checkbox__a" value="" style="cursor: pointer;">
-                            <div class="track"></div>
-                            <div class="toggle"></div>
+                            <div class="checkbox--track"></div>
+                            <div class="checkbox--toggle"></div>
                             KATEGORIE 1 </label>
                     </div>
                 </li>
                 <li>
-                    <div class="checkbox setting col-md-1" style="margin-top:10px;padding-left:0px;">
+                    <div class="checkbox col-md-1" style="margin-top:10px;padding-left:0px;">
                         <label><input type="checkbox" class="sidebar__checkbox__b" value="" style="cursor: pointer;">
-                            <div class="track"></div>
-                            <div class="toggle"></div>
+                            <div class="checkbox--track"></div>
+                            <div class="checkbox--toggle"></div>
 							KATEGORIE 2</label>
                     </div>
                 </li>
                 <li>
-                    <div class="checkbox setting col-md-1" style="margin-top:10px;padding-left:0px;">
+                    <div class="checkbox col-md-1" style="margin-top:10px;padding-left:0px;">
                         <label><input type="checkbox" class="sidebar__checkbox__c" value="" style="cursor: pointer;">
-                            <div class="track"></div>
-                            <div class="toggle"></div>
+                            <div class="checkbox--track"></div>
+                            <div class="checkbox--toggle"></div>
                             KATEGORIE 3</label>
                     </div>
                 </li>
 				<li>
-					<div class="checkbox setting col-md-1" style="margin-top:10px;padding-left:0px;">
+					<div class="checkbox col-md-1" style="margin-top:10px;padding-left:0px;">
 						<label><input type="checkbox" class="sidebar__checkbox__d" value="" style="cursor: pointer;">
-							<div class="track"></div>
-							<div class="toggle"></div>
+							<div class="checkbox--track"></div>
+							<div class="checkbox--toggle"></div>
 							KATEGORIE <label>
 					</div>
 				</li>
@@ -231,12 +112,13 @@
         </div>
 
 
-        <!-- KARTE -->
+        
 
-        <div class="col-md-9 gap-top-60" id="nav-grundrisse">
+<div class="col-md-9 svgcontainer">
 
-			<h2 class="headline-bold grey-secondary float-center">INTERAKTIVE GRUNDRISSE</h2>
-			<h2 class="headline-light grey-secondary float-center">EXAMPLE</h2>
+	<h2 class="headline-bold">INTERAKTIVE GRUNDRISSE</h2>
+	<h2 class="headline-light">EXAMPLE</h2>
+	
 
 
 
@@ -250,7 +132,7 @@
 
 
  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 358.2 162" width="100%" height="25vw"  style="enable-background:new 0 0 358.2 162;" xml:space="preserve" id="section" class="sect2 gap-top-30">
+	 viewBox="0 0 358.2 162" width="100%"  style="enable-background:new 0 0 358.2 162;" xml:space="preserve" class="svgmap svgmap--fontsmall svgmap--hover svgmap--animate">
 	<style type="text/css">
 	.st0 {
         fill: #CCCCCC;
@@ -540,45 +422,26 @@
 </g>
 </svg>
 
-            <table class="table table-hover grey-secondary text gap-top-60 hidden-xs" id="baseTable" style="font-size: 12px">
-                <tbody>
-
-                </tbody>
-
-            </table>
-
-
-            <!--MOBILE  -->
-            <table class="table table-hover grey-secondary text gap-top-60 visible-xs" id="baseTable" style="font-size: 8px;line-height: 1;">
-                <tbody>
-
-                </tbody>
-
-            </table>
+           
 
 
 
 
+</div>
 
 
 
 
-
-
-
-        </div>
-
-
-
-        <!-- INCLUDE HTML DYNAMIC -->
-
-        <div class="a1 modal fade" role="dialog">
+        <div class="modal fade" role="dialog">
             <div class="modal-dialog">
-                <div class="modal-content">
+                <div class="modal__content">
 
-                    <div id="area">
-                        <!--<div w3-include-html="content/area1.html">-->
-                    </div>
+                		<div id="modalId"> </div>
+
+                    
+
+                        
+                    
 
                     <div class="modal-footer">
                         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -598,38 +461,12 @@
 </div>
 
 
-<!-- /.container  -->
 
 
-
-<!-- 
-<script>
-    w3.includeHTML();
-</script> -->
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/appController.js"></script>
 
 
-
-
-
-
-
-
-
-
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-<!-- <script type="text/javascript" src="js/slider/jquery-1.7.1.js"></script> -->
-
- <script src="js/bootstrap.js"></script>
-
-<script src="js/modal.js"></script>
-
-<!-- <script src="js/interactive.js"></script> -->
-
-
-
- <script src="js/appController.js"></script>
-</body>
 
 </html>
